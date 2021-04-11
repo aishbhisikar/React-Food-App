@@ -1,0 +1,30 @@
+.mainabout{padding-top: 30px;}
+
+.cf{padding-top: 20px;
+	background: #FDC830; 
+	background: -webkit-linear-gradient(to top, #F37335, #FDC830);  
+	background: linear-gradient(to top, #F37335, #FDC830);}
+.cf .cForm{float: left;width: 50%;padding:0px 100px 0px 50px;box-sizing: border-box;}
+.cForm h3{margin-left: 10px;color: rgb(251, 250, 252);}
+.cf .about{float: right;width: 50%;padding-right: 73px;padding-bottom: 65px;box-sizing: border-box;}
+.cf .about h3{margin-top: 14px;margin-bottom: 36px;color: rgb(254, 254, 255);border-bottom: 1px solid  #e5e5e5;}
+.cf .about p{line-height: 40px;text-align: center;}
+.cf h4,li{color: azure;}
+.formBox button{background: #FDC830; color: azure;border: none;align-items: center;}
+.footer{padding-top: 10px; text-align: center;border-top: 1px solid #b0f50f;color: rgb(37, 1, 44);}
+
+@media (max-width: 1024px){
+	.cf .cForm{width: 100%;text-align: center;}
+	.cf .about{width: 100%;padding-left: 30px;padding-right: 0;box-sizing: border-box;margin-top: 20px;}
+}
+
+@media (max-width: 640px){
+	.cf{padding-right: 20px;}
+	.cf .cForm{width: 100%;text-align: center;padding: 0;margin-top: 20px;margin-bottom: 20px;}
+    .formBox{margin-left:10px ;}
+	.cf .about{width: 100%;box-sizing: border-box;}
+	.cf h1{font-size: 2em;}
+	.cf .about h3{text-align: center;}
+	p{font-size: 0.75em;}
+
+}

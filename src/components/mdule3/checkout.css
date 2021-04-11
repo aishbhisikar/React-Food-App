@@ -1,0 +1,168 @@
+body .cartlist {
+  background: #ddd;
+    min-height: 100vh;
+    vertical-align: middle;
+    display: flex;
+    font-weight: bold
+
+}
+.title1 {
+  margin-bottom: 5vh
+}
+
+.cardl1 {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 950px;
+  width: 100%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  border: transparent
+}
+
+@media(max-width:767px) {
+  .card1 {
+      margin: 3vh auto
+  }
+}
+
+.cart1 {
+  background-color: #fff;
+  padding: 4vh 5vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem
+}
+
+@media(max-width:767px) {
+  .cart1 {
+      padding: 4vh;
+      border-bottom-left-radius: unset;
+      border-top-right-radius: 1rem
+  }
+}
+
+.cartlist .row {
+  margin: 0
+}
+
+.cartlist.title1 b {
+  font-size: 1.5rem
+}
+
+.cartlist .main5 {
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%
+}
+
+.cartlist .col-2,
+.cartlist .col {
+  padding: 0 1vh
+}
+
+.cartlist a {
+  padding: 0 1vh
+}
+
+.close {
+  margin-left: auto;
+  font-size: 0.7rem;
+ 
+}
+
+.cartlist .main5 img {
+  width: 3.5rem
+}
+
+.back-to-shop .col{
+  margin-top: 1.5rem
+}
+
+.payment-info {
+  background: rgb(49, 49, 49);
+  padding: 30px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.cartlist .radio img {
+  width: 1.5rem
+}
+
+.type {
+  font-weight: 400;
+  font-size: 10px
+}
+
+label.radio {
+  cursor: pointer
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none
+}
+
+label.radio span {
+  padding: 1px 12px;
+  border: 2px solid #ada9a9;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300
+}
+
+label.radio input:checked+span {
+  border-color: #fff;
+  background-color: blue;
+  color: #fff
+}
+
+.credit-inputs {
+  background: rgb(160, 160, 172);
+  color: #fff !important;
+  border-color:rgb(160, 160, 172)
+}
+
+.credit-inputs::placeholder {
+  color: #fff;
+  font-size: 13px
+}
+
+.credit-card-label {
+  font-size: 12px;
+  font-weight: 300
+}
+
+.form-control.credit-inputs:focus {
+  background: rgb(102, 102, 221);
+  border: rgb(102, 102, 221)
+}
+
+.line {
+  border-bottom: 1px solid rgb(102, 102, 221)
+}
+
+.information span {
+  font-size: 12px;
+  font-weight: 500
+}
+
+.information {
+  margin-bottom: 5px
+}
+
+.items {
+  -webkit-box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08)
+}
+
+.spec {
+  font-size: 11px
+}

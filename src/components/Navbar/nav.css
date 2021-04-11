@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generic css*/
+h1{font-size: 2.625em;color: #360341;font-style: oblique;}
+h4{font-size: 1.25em;}
+
+.boxCard button{background: #FDC830; 
+	background: -webkit-linear-gradient(to top, #F37335, #FDC830);  
+	background: linear-gradient(to top, #F37335, #FDC830);}
+
+/* .clear{clear: both;} */
+
+
+/*header section*/
+.header{width: 100%; box-sizing: border-box; }
+.header .logo{float: left;margin-top: 20px;}
+ .header .nav{float: right;margin-top: 50px;font-size: 1em;}
+.header .nav li{display: inline-block;margin-left: 30px;}
+.header .nav li a{font-size: 1.35em; color: #ffffff; text-decoration: none;padding-bottom: 33px;}
+.header .nav li a:hover{border-bottom: 3px solid #610303;}
+/*slider section*/
+.home {
+    width: 100%;
+    height: 80vh;
+	background-image:url(./food6.jpg) ;
+    background-position: center top;
+	background-size:cover;
+}
+
+
+.shipping .row{background: #FDC830;  
+    background: -webkit-linear-gradient(to top, #F37335, #FDC830);  
+    background: linear-gradient(to top, #F37335, #FDC830); 
+     color: #ffffff;margin-right: 0;
+     margin-left: 0;padding-top: 5px;
+    }
+
+.boxCard{
+    /* background-color: aliceblue;
+    border-radius: 10px 10px 10px 10px; */
+    overflow: hidden;
+    margin:20px;
+    align-items: center;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3); 
+     -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3); 
+}
+.grid{
+    margin-top: 10px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.grid.div{flex-basis: calc(33.33% -40px);}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {margin: 0;}
+}
+@media screen  {
+    .header .nav{  background: #FDC830; 
+        background: -webkit-linear-gradient(to top, #F37335, #FDC830);  
+        background: linear-gradient(to top, #F37335, #FDC830);
+        box-shadow: -5px -5px 0 #ebdd19} 
+}
+@media (max-width: 640px){
+	.header .logo {width: 50%;}
+	.header .nav{width: 100% ; margin-top: 10px;}
+	.header .nav li{margin-left: 10px;}
+	.header .nav li a{font-size: 1em;}
+    .boxCard{margin:0 auto;}
+    .home {width: 100%;height: 50vh;}
+
+}
